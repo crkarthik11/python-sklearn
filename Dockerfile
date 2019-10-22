@@ -1,6 +1,4 @@
 FROM python:3.7
+MAINTAINER CR
 
-RUN pip install numpy
-RUN pip install scipy
-RUN pip install scikit-learn
-RUN pip install lxml
+RUN pip install numpy scipy scikit-learn lxml
